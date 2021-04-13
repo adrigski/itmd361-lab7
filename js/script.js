@@ -1,5 +1,5 @@
 function init(){
-//add your javascrip between these two lines of code
+//add your javascript between these two lines of code
     
     var alertMeButton = document.getElementById("entrybutton");
 
@@ -9,7 +9,6 @@ function init(){
         alert("Adrian Grabowski: " + inText.value);
         outText.innerHTML = inText.value;
     }
-    
     alertMeButton.addEventListener('click', alertMe);
 }
 window.addEventListener('load', init);
